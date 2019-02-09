@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Mycontroller">
+   <children>
+      <TextField fx:id="txt2" layoutX="226.0" layoutY="85.0" />
+      <Text fx:id="txt1" layoutX="281.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login">
+         <font>
+            <Font name="Calibri" size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="txt3" layoutX="265.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+         <font>
+            <Font name="Calibri" size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txt5" layoutX="417.0" layoutY="85.0" />
+      <TextField fx:id="txt6" layoutX="417.0" layoutY="148.0" />
+      <Button fx:id="button1" layoutX="58.0" layoutY="85.0" mnemonicParsing="false" onAction="#action1" text="Ввести логин">
+         <font>
+            <Font name="Calibri" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="button2" layoutX="49.0" layoutY="141.0" mnemonicParsing="false" onAction="#action2" text="Ввести пароль">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="txt4" layoutX="226.0" layoutY="148.0" onAction="#action2" />
+   </children>
+</AnchorPane>
