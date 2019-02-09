@@ -14,7 +14,7 @@ public void start(Stage primaryStage) {
 		Parent root = FXMLLoader.load(getClass().getResource("test.fxml")); 
 		primaryStage.setTitle("My Application"); 
 		primaryStage.setScene(new Scene(root)); 
-		primaryStage.show(); 
+	//	primaryStage.show(); 
 	} catch(Exception e) { 
 		e.printStackTrace(); 
 		} 
